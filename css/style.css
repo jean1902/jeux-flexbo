@@ -1,0 +1,60 @@
+ 
+/* #205768 */
+.container{
+    background-color: #205768;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    width: 100%;
+   
+}
+.row-image{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+   
+} 
+.crapo img{
+    height: 40px;
+}
+/* #298a2b vert */
+/* jaune #c4c405 */
+/* rouge #cf1b18 */
+.crapo{
+   
+    padding: 15px;
+    border-radius: 50%;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+   
+}
+.green{
+    background-color:#298a2b ;
+}
+.yellow{
+    background-color: #c4c405;
+}
+.red{
+    background-color: #cf1b18;
+}
+/* responsivité */
+@media screen and (max-width: 524px){
+    .row-image {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+       padding: 3px;
+    }
+    .container {
+        background-color: #205768;
+        margin: 0 auto;
+        width: 100%;
+        padding: 5px;
+    }
+    body{
+        margin: 0px;
+    }
+}
